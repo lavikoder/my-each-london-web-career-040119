@@ -2,7 +2,7 @@ def my_each(number)
   if block_given?
   x = 0
   while x < number.size do
-    yield (number[i])
+    yield (number[x])
       x += 1
     end
   number
