@@ -1,7 +1,7 @@
 def my_each(number)
   if block_given?
   x = 0
-  while x < number.length do
+  while x < number.size do
     yield (number[i])
       x += 1
     end
@@ -10,4 +10,5 @@ def my_each(number)
 end
 
 array = [1, 2, 3]
+
 my_each(array)
