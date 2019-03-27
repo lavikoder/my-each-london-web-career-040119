@@ -8,3 +8,6 @@ def my_each(number)
   number
   end
 end
+
+array = [1, 2, 3]
+my_each(array)
