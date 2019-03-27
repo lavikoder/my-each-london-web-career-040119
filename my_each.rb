@@ -1,3 +1,11 @@
-def my_each # put argument(s) here
-  # code here
+
+
+def my_each(number)
+  x = 0
+  while x < number.length do
+    yield (number[i])
+      x += 1
+
+    end
+  end
 end
