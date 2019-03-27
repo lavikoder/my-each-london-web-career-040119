@@ -5,7 +5,5 @@ def my_each(number)
   while x < number.length do
     yield (number[i])
       x += 1
-
-    end
   end
 end
